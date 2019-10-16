@@ -1,0 +1,10 @@
+<div>
+  <h1> welcome to {{ title }} </h1>
+</div>
+<div>
+  <ul>
+    <li *ngFor="let string of arrayOfThings" (click)="onClick(string)" [class.isTrue]="boo">
+      {{ string }}
+    </li>
+  </ul>
+</div>

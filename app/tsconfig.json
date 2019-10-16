@@ -1,0 +1,6 @@
+{
+    "compileOnSave": {
+        "experimentalDetectors": true,
+        "allowJs": true
+    }
+}
